@@ -225,5 +225,9 @@ class mod_reservation_renderer extends plugin_renderer_base {
 
         return $html;
     }
+    
+    function reservation_print_recent_activity($course, $viewfullnames, $timestart) {
+        return false;
+    }
 
 }

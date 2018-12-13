@@ -256,9 +256,9 @@ function reservation_user_complete($course, $user, $mod, $reservation) {
  * @param int $timestart
  * @return bool success
  */
-function reservation_print_recent_activity($course, $viewfullnames, $timestart) {
-    return false;
-}
+//function reservation_print_recent_activity($course, $viewfullnames, $timestart) {
+//    return false;
+//}
 
 /**
  * Function to be run periodically according to the scheduled task.
